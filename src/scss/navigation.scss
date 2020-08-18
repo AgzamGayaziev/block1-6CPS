@@ -141,8 +141,10 @@
     }
   }
   .header {
+    width: 100%;
     .navigation {
       border: none;
+      margin-left: auto;
     }
   }
   .navigation__list--support {
