@@ -3,15 +3,11 @@
   .navigation__item:nth-child(3) {
     margin-left: 16px;
   }
-  margin-bottom: 16px;
 }
 
 .main-menu__footer {
   margin-top: auto;
-  margin-bottom: 32px;
   padding: 0 0 0 24px;
-  position: absolute;
-  bottom: -32px;
 }
 .main-menu-footer__navigation {
   .navigation__list {
@@ -59,4 +55,9 @@
 }
 .menu-footer__info {
   padding: 0;
+}
+@media (min-width: 768px) {
+  .main-menu__footer {
+    margin-top: 100px;
+  }
 }

@@ -1,12 +1,15 @@
 .read-more {
   width: 150px;
-  background-color: white;
+  background-color: #f8f8f8;
   border: 0;
   margin-left: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
   font-size: 16px;
   line-height: 24px;
+  &:hover {
+    border: 1px solid #b8ffec;
+  }
 }
 .read-more::before {
   content: url("../static/icon.svg");

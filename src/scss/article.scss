@@ -24,6 +24,10 @@
   margin-bottom: 0;
 }
 
+.main-page__photo {
+  width: 100%;
+  height: 100%;
+}
 @media (min-width: 768px) {
   .article {
     display: flex;
@@ -51,6 +55,12 @@
     display: block;
     margin-top: 40px;
   }
+
+  .main-page__photo {
+    margin-left: 20px;
+    width: 50%;
+    height: 100%;
+  }
 }
 @media (min-width: 1120px) {
   .article {
@@ -73,5 +83,14 @@
   .article__content-text:nth-child(2) {
     display: block;
     margin-top: 45px;
+  }
+  .main__photo-container {
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    .main__photo {
+      width: 100%;
+      height: 100%;
+    }
   }
 }

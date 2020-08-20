@@ -1,4 +1,5 @@
 .services-price {
+  width: 100%;
   .services-price__content {
     height: 270px;
   }
@@ -26,6 +27,9 @@
     position: absolute;
     right: 0;
     bottom: 10px;
+    &:hover {
+      border: 1px solid #b8ffec;
+    }
   }
 }
 
@@ -86,6 +90,9 @@
   letter-spacing: -0.2px;
 
   color: #1b1c21;
+  &:hover {
+    border: 1px solid #b8ffec;
+  }
 
   &::after {
     content: url(../static/Line.svg);
@@ -155,7 +162,7 @@
     opacity: 0.72;
   }
 }
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
   .services-price--margin-l-desctop {
     margin-left: 320px;
   }
