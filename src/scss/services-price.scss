@@ -27,8 +27,11 @@
     position: absolute;
     right: 0;
     bottom: 10px;
+    opacity: 80%;
+
     &:hover {
-      border: 1px solid #b8ffec;
+      opacity: 100%;
+      transform: scale(1.1, 1.1);
     }
   }
 }
@@ -90,8 +93,11 @@
   letter-spacing: -0.2px;
 
   color: #1b1c21;
+  opacity: 80%;
+
   &:hover {
-    border: 1px solid #b8ffec;
+    opacity: 100%;
+    transform: scale(1.1, 1.1);
   }
 
   &::after {
@@ -105,6 +111,11 @@
   }
 }
 @media (min-width: 768px) {
+  .services-price {
+    .services-price__content {
+      width: 100%;
+    }
+  }
   .services-price__paginator {
     display: none;
   }

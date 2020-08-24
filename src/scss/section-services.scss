@@ -45,8 +45,11 @@ $showAllServicesOpenHeight1120: 560px;
 .section-services__item {
   display: block;
   margin: 0 0 16px 0;
-  :hover {
-    border: 1px solid #b8ffec;
+  opacity: 80%;
+
+  &:hover {
+    opacity: 100%;
+    transform: scale(1.1, 1.1);
   }
 }
 .section-services__link {
@@ -74,8 +77,11 @@ $showAllServicesOpenHeight1120: 560px;
 .show-all-services {
   display: none;
   background-color: #f8f8f8;
+  opacity: 80%;
+
   &:hover {
-    border: 1px solid #b8ffec;
+    opacity: 100%;
+    transform: scale(1.1, 1.1);
   }
 }
 @media (min-width: 768px) {
@@ -112,7 +118,7 @@ $showAllServicesOpenHeight1120: 560px;
     display: block;
     width: 150px;
     border: 0;
-    background-color: white;
+    background-color: #f8f8f8;
     margin: 12px 0 0 32px;
 
     font-family: TT Lakes;

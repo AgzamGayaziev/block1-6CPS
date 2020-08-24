@@ -56,14 +56,20 @@
   top: 0;
 }
 .main-menu__item {
+  opacity: 80%;
+
   &:hover {
-    border: 1px solid #b8ffec;
+    opacity: 100%;
+    transform: scale(1.1, 1.1);
   }
   margin-bottom: 32px;
 }
 @media (min-width: 768px) {
   .main-menu {
     height: 1024px;
+  }
+  .main-menu--open {
+    box-shadow: -200px 0 300px black;
   }
 }
 @media (min-width: 1440px) {

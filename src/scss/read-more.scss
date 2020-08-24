@@ -7,8 +7,11 @@
   margin-top: 10px;
   font-size: 16px;
   line-height: 24px;
+  opacity: 80%;
+
   &:hover {
-    border: 1px solid #b8ffec;
+    opacity: 100%;
+    transform: scale(1.1, 1.1);
   }
 }
 .read-more::before {

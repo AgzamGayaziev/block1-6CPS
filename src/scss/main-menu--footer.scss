@@ -56,6 +56,15 @@
 .menu-footer__info {
   padding: 0;
 }
+.contacts__link,
+.lang-nav__button {
+  opacity: 80%;
+
+  &:hover {
+    opacity: 100%;
+    transform: scale(1.1, 1.1);
+  }
+}
 @media (min-width: 768px) {
   .main-menu__footer {
     margin-top: 100px;

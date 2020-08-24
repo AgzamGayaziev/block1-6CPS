@@ -1,7 +1,15 @@
 .overlay-feedback {
+  position: absolute;
   width: 100%;
   height: 100%;
+  z-index: 3;
+  top: 0;
+  display: none;
+  transition: filter 0.5s;
 }
 .overlay-feedback--blured {
-  filter: blur(10px);
+  background-color: white;
+  filter: blur(30px);
+  display: block;
+  opacity: 90%;
 }

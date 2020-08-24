@@ -47,8 +47,11 @@
 .button-menu,
 .feedback__button,
 .support__link {
+  opacity: 80%;
+
   &:hover {
-    border: 1px solid #b8ffec;
+    opacity: 100%;
+    transform: scale(1.1, 1.1);
   }
 }
 .support__link {
@@ -106,6 +109,9 @@
     .feedback {
       display: none;
     }
+  }
+  .feedback {
+    display: none;
   }
   .support {
     margin-left: auto;

@@ -12,8 +12,11 @@
     padding: 0;
     border: none;
     background-color: #ffffff;
+    opacity: 80%;
+
     &:hover {
-      border: 1px solid #b8ffec;
+      opacity: 100%;
+      transform: scale(1.1, 1.1);
     }
   }
   .header__navigation {
